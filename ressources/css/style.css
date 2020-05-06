@@ -73,19 +73,62 @@ nav span{
 
 }
 
+/*article*/
 .articles-publish{
-
+    display: inline-flex;
+    width: 100%;
 }
-
+.main-article{
+    display: block;
+    width: 60%;
+    margin: 3.2rem 2.4rem;
+}
+.main-article img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*liste de cours*/
 .start{
+    display: block;
     background-color: #D7D7D7;
-
+    width: 100%;
+    padding-top: 3.2rem;
 }
+.start-cours{
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 3.2rem 7.2rem;
+}
+.cours{
+    margin: 0 1.6rem 3.2rem 1.6rem;
+    background-color: white;
+    max-width: 25%;
+}
+.cours img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cours .text{
+    margin: 1.6rem 1.6rem 2.4rem 2.4rem;
+}
+
 /*exposition these*/
 .thesis{
 
 }
 video{
-    max-width: 100%;
+    max-width: 60%;
 }
 
+/*typographie*/
+.start h3{
+    text-align: center;
+    margin: 0 0;
+    margin-bottom: 3.2rem;
+}
